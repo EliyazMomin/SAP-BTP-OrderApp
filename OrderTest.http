@@ -1,1 +1,4 @@
 GET http://localhost:35829/odata/v4/order-managment/Order
+
+//for infinit loop with orderitems with in orders
+//GET http://localhost:35829/odata/v4/order-managment/Order$expand=items
